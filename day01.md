@@ -142,3 +142,33 @@
   ```
   再次执行一次  git pull
   ```
+
+上传 github
+
+1. github 创建项目并设置
+
+   ### ...或者在命令行上创建一个新的存储库
+
+   ```
+   echo“＃oops”>> README.md 
+   git init 
+   git add README.md 
+   git commit -m“第一次提交” 
+   git remote add origin git@github.com：yanghuahuanyuan / oops.git
+    git push -u origin master
+
+
+   ```
+
+   ### ...或从命令行中推送现有的存储库
+
+   ```
+   git remote add origin git@github.com：yanghuahuanyuan / oops.git
+    git push -u origin master
+
+
+   ```
+
+   ### ...或从另一个存储库导入代码
+
+   您可以使用来自Subversion，Mercurial或TFS项目的代码初始化此存储库。
